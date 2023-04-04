@@ -11,7 +11,7 @@
 pip install pyinstaller==5.3
 ```
 
-构建可执行文件, 在项目根目录下执行一下语句
+构建可执行文件, 在项目根目录下执行以下语句
 
 ```bash
 pyinstaller --clean -Fw --add-data "./ICOs/main.ico;." --add-data "./theme;./theme" ./com/GUI_achieve.py
